@@ -1,0 +1,12 @@
+$breakpoint-tablet: 920px;
+@media (max-width: $breakpoint-tablet) {
+    .globalContainer .childContainer2 {
+        flex-wrap: wrap;
+        .FloatboxContainerWhite {
+            width: 100%;
+        }
+        .FloatboxContainerBlack {
+            width: 100%;
+        }
+    }
+} 
