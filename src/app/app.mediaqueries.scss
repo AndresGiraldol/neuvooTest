@@ -1,12 +1,40 @@
 $breakpoint-tablet: 920px;
 @media (max-width: $breakpoint-tablet) {
-    .globalContainer .childContainer2 {
+    .globalContainer {
+        margin: 0px;
+        margin-top: -8px;
+        margin-right: -8px;
+        margin-left: -8px;
+    }
+    .globalContainer .childContainer ,.globalContainer .childContainer2 {
         flex-wrap: wrap;
-        .FloatboxContainerWhite {
+        .FloatboxContainerWhite,.boxContainerWhite ,.boxContainerGrey ,.FloatboxContainerBlack{
             width: 100%;
         }
-        .FloatboxContainerBlack {
+    }
+    .globalContainer .divHeader {
+        height: auto;
+        text-align: center;
+        .addButton {
+            float: none;
+            margin: 10px 0 10px 20px;
+        }
+    }
+    .globalContainer .divSubHeader {
+        .title {
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+        .subTitle {
+            display: block;
+            float: none;
             width: 100%;
+            text-align: right;
+            margin-left: -22px;
+            margin-top: 0px;
+            ul {
+                margin-top: 0px;
+            }
         }
     }
 } 
