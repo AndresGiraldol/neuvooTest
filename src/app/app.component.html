@@ -55,6 +55,7 @@
     </div>
     <div class="boxContainerWhite">
       <h3 class="mdTitleBlack">CHART</h3>
+      <app-line-chart-demo  pieChartheight="260px" pieChartmargin="-30px" [piechartOptions]="pieChartOptionsWithLegend"></app-line-chart-demo>
     </div>
   </div>
   <div class="divSubHeader">
@@ -69,6 +70,7 @@
   </div>
   <div class="childContainer2">
     <div class="FloatboxContainerWhite">
+        <span class="closeIcon">x</span>
       <div class="comparationIncomeBox">
         <div class="comparationIncomeBoxLeft">
           <h6 class="mdTitle">TYPE YEARLY INCOME</h6>
@@ -82,10 +84,11 @@
       <div class="comparationIncomeChart">
         <h6 class="mdTitle">NET PAY</h6>
         <p class="blackNumber">102,850 EUR</p>
+        <app-line-chart-demo  pieChartheight="180px" pieChartmargin="0px" [piechartOptions]="pieChartOptions"></app-line-chart-demo>
       </div>
     </div>
     <div class="FloatboxContainerBlack">
-      <!--<span class="closeIcon">x</span>-->
+      <span class="closeIcon">x</span>
       <h3 class="mdTitleBlack">DEDUCTIONS</h3>
       <div class="divDeductionsTable">
         <table class="deductionsTable">
@@ -123,6 +126,7 @@
       </table>
     </div>
     <div class="FloatboxContainerWhite">
+        <span class="closeIcon">x</span>
         <div class="comparationIncomeBox">
           <div class="comparationIncomeBoxLeft">
             <h6 class="mdTitle">TYPE YEARLY INCOME</h6>
@@ -136,6 +140,7 @@
         <div class="comparationIncomeChart">
           <h6 class="mdTitle">NET PAY</h6>
           <p class="blackNumber">69,950 EUR</p>
+          <app-line-chart-demo  pieChartheight="180px" pieChartmargin="0px" [piechartOptions]="pieChartOptions"></app-line-chart-demo>
         </div>
       </div>
   </div>

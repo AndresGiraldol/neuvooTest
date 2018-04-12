@@ -11,10 +11,15 @@ $breakpoint-tablet: 920px;
         .FloatboxContainerWhite,.boxContainerWhite ,.boxContainerGrey ,.FloatboxContainerBlack{
             width: 100%;
         }
+        .FloatboxContainerWhite , .FloatboxContainerBlack {
+            margin-bottom: 10px;
+        }
     }
     .globalContainer .divHeader {
         height: auto;
-        text-align: center;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
         .addButton {
             float: none;
             margin: 10px 0 10px 20px;
